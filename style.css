@@ -5,14 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Caveat&display=swap');
 
 body {
-  display: flex;
-  flex-direction: column;
+    margin-left: 50px;
   align-items: center;
 }
 
 #full-header {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -34,16 +31,12 @@ body {
   font-size: 10px;
 }
 
-#section-1-header {
-  display: flex;
-}
-
 #section-1-header img {
   padding-right: 10px;
 }
 
 #section-2-header {
-  display: flex;
+ display: block;
   align-items: center;
 }
 
@@ -52,8 +45,6 @@ body {
 }
 
 #full-body {
-  display: flex;
-  flex-direction: column;
   width: 90%;
   align-items: center;
 }
@@ -65,8 +56,6 @@ footer {
 }
 
 #title-section {
-  display: flex;
-  justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -88,10 +77,6 @@ footer {
   color: gray;
 }
 
-#title-section div:last-child {
-  display: flex;
-  flex-direction: row;
-}
 
 #title-section img {
   height: 10px;
@@ -103,10 +88,6 @@ footer {
   margin-bottom: 30px;
 }
 
-#article {
-  display: flex;
-  flex-direction: column;
-}
 
 #article p {
   text-indent: 30px;
@@ -119,8 +100,6 @@ footer {
   background-image: url('img/list-bg.png');
   background-position: center;
   box-shadow: 2px 2px #bcbcaf, 4px 4px #bcbcaf, 6px 6px #bcbcaf;
-  display: flex;
-  justify-content: center;
 }
 #recipe-section ul {
   width: 40%;
@@ -135,7 +114,6 @@ input:checked + label {
 }
 #about-author {
   margin-top: 30px;
-  display: flex;
 }
 #about-author button {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
