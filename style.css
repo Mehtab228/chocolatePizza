@@ -35,13 +35,17 @@ body {
   padding-right: 10px;
 }
 
-#section-2-header {
- display: block;
-  align-items: center;
-}
 
 #large-icon-group {
+    display: block;
   padding-right: 20px;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+#smallicongroup {
+    display: block;
+    margin-left: 950px;
 }
 
 #full-body {
